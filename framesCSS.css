@@ -1,0 +1,169 @@
+.pitoy
+{
+background-color: beige;
+padding: 12px 20px;
+align-self: "center";
+text-decoration: none;
+border-radius: 30px;
+transition: background-color 0.3s;
+}
+
+.pitoy:hover 
+{
+background-color: gold;
+}
+.btn:hover
+{
+background-image: url("AboutPic.jpg");
+}
+
+.igit{
+display: block;
+width = 200px;
+length = 200px;
+background-color: darkkhaki;
+}
+
+a{
+color: #556B2F;
+align-self: center;
+font-size: x-large;
+text-decoration: none;
+}
+header {
+background-color: beige;
+color: black;
+text-align: center;
+padding: 30px;
+}
+
+.delicacy {
+background-color: beige;
+padding: 20px;
+margin-bottom: 5px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delicacy h1 {
+color: #006400;
+font-size: 1.8rem;
+}
+
+
+.delicacy b {
+font-size: 1rem;
+color: #555;
+}
+
+
+
+p{
+font-size: 1.2rem;
+}
+.btn{
+display: block;
+width: 300px;
+height: 60
+px;
+background-color: beige;
+margin: 15px;
+}
+
+button.btn {
+padding: 12px 24px;
+background-color: green;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: transform 0.2s ease-in-out;
+}
+
+button.btn:hover {
+transform: scale(1.1);
+}
+
+.top{
+overflow: hidden;
+}
+
+header .container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header nav ul {
+list-style-type: none;
+display: flex;
+}
+
+header nav ul li {
+margin: 0 20px;
+}
+
+header nav ul li a {
+color: green;
+text-decoration: none;
+font-size: 1.2em;    
+padding: 10px 15px;
+transition: background-color 0.3s ease;
+}
+nav ul li a:hover, .active {
+background-color: gold;
+border-radius: 5px;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px 0;
+}
+
+footer p {
+font-size: 1em;
+}
+header .container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.totoy {
+background-color: green;
+color: white;
+text-align: center;
+padding: 50px 0;
+}
+
+.totoy h2 {
+font-size: 2.5em;
+color: white;
+}
+
+.totoy p {
+font-size: 1.2em;
+color: #fff;
+}
+.delicacy-item img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+.image{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+home{
+overflow: hidden;
+}
