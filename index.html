@@ -1,5 +1,17 @@
 <html>
-<head><title>Top 10 Delicacies of Mindanao</title><meta name = "viewport" content = "width=device-width, initial-scale+1.0></head>
+<head><title>Top 10 Delicacies of Mindanao</title>
+  <meta name = "viewport" content = "width=device-width, initial-scale+1.0>
+    <script>
+        function adjustLayout() {
+            if (window.innerWidth < 768) { // Adjust breakpoint as needed
+                alert("screen too small for frameset")
+                alert("Please view this page on a larger screen for the best experience.")
+            }
+        }
+        window.addEventListener('resize', adjustLayout);
+        window.addEventListener('load', adjustLayout);
+    </script>
+    </head>
 <link rel = "stylesheet" type = "text/css" href = "framesCSS.css">
 <frameset rows = "22%, *" frameborder = "0">
 <frame src = "Frame_Top Part.html" >
